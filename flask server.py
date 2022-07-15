@@ -34,8 +34,6 @@ def about():
 # when the about page is open
 # https://yourwebsite/about/
 def login():
-    if random.randint(0, 100) == 65:
-        return Response(status=403)
     return Response(status=200)
 
 
